@@ -11,6 +11,7 @@ try{
     age:"27",
     State:"Delhi"
    }
+   console.log("Time is " + Date.now());
    res.status(200).json(obj);
 }
 catch(error)
@@ -20,5 +21,5 @@ catch(error)
 })
 
 app.listen(3000,(()=>{
-    console.log("Application is listening on port 3000");
+    console.log("Updated Application is listening on port 3000");
 }))
